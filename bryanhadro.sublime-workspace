@@ -1,0 +1,779 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"all",
+				"all_inclusive\tparam"
+			],
+			[
+				"property",
+				"property_type"
+			],
+			[
+				"pagina",
+				"paginator_page"
+			],
+			[
+				"pagin",
+				"paginator_page\tstatement"
+			],
+			[
+				"display",
+				"get_display_name"
+			],
+			[
+				"social",
+				"social_media_title"
+			],
+			[
+				"MAX_PER_PAGE",
+				"_MAX_PER_PAGE"
+			],
+			[
+				"show",
+				"show_hotel_class"
+			],
+			[
+				"_hlp",
+				"_hlp_get_property_type_data\tfunction"
+			],
+			[
+				"proper",
+				"property_type"
+			],
+			[
+				"object",
+				"object_list"
+			],
+			[
+				"paginator",
+				"paginator_data"
+			],
+			[
+				"request",
+				"request_data"
+			],
+			[
+				"Airport",
+				"AirportCodesFactory"
+			],
+			[
+				"aiport",
+				"airport_code"
+			],
+			[
+				"container",
+				"containerSelector"
+			],
+			[
+				"filter",
+				"filtersContainer"
+			],
+			[
+				"parent",
+				"cruise_parent"
+			],
+			[
+				"append",
+				"append_query_string_param"
+			],
+			[
+				"next",
+				"next_page"
+			],
+			[
+				"class",
+				"classmethod"
+			],
+			[
+				"RPCru",
+				"RPCruiseShipHlp"
+			],
+			[
+				"filterButton",
+				"filterButtonsContainer"
+			],
+			[
+				"Search",
+				"SearchFilters"
+			],
+			[
+				"searchFilter",
+				"SearchFilterButton"
+			],
+			[
+				"buttonElement",
+				"buttonElementId"
+			],
+			[
+				"button",
+				"buttonElement"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"searchButton",
+				"searchFilterButtonsContainer"
+			],
+			[
+				"sticky",
+				"sticky-wrapper"
+			],
+			[
+				"hide",
+				"hideTrigger"
+			],
+			[
+				"pages",
+				"pagesTotal"
+			],
+			[
+				"ite",
+				"itemsShowing"
+			],
+			[
+				"static_ver",
+				"static_version"
+			],
+			[
+				"Cruise",
+				"CruiseShipSearchFilters"
+			],
+			[
+				"primar",
+				"primary_rank_list\tstatement"
+			],
+			[
+				"block-flush",
+				"block-flush-for-small-only"
+			],
+			[
+				"attraction",
+				"attraction_objects"
+			],
+			[
+				"destination",
+				"destination_id_list"
+			],
+			[
+				"get",
+				"get_destination"
+			],
+			[
+				"Raphael",
+				"RaphaelWorldMap"
+			],
+			[
+				"datepicker",
+				"datepickerTimestamp"
+			],
+			[
+				"pop",
+				"popupHideOnScroll"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"unveil",
+				"unveilBackground"
+			],
+			[
+				"get_region",
+				"get_region_ranking_lists"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"html p",
+				"HTMLPrettify"
+			],
+			[
+				"set syn json",
+				"Set Syntax: JSON"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"html pre",
+				"HTMLPrettify"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set sy java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"git ",
+				"GitGutter: Compare Against Commit"
+			],
+			[
+				"set syntax json",
+				"Set Syntax: JSON"
+			],
+			[
+				"set s json",
+				"Set Syntax: JSON"
+			],
+			[
+				"set ty json",
+				"Set Syntax: JSON"
+			],
+			[
+				"set sy html",
+				"Set Syntax: HTML"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"pakc",
+				"Package Control: Enable Package"
+			],
+			[
+				"prety",
+				"HTMLPrettify"
+			],
+			[
+				"set syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"console",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"set syntax css",
+				"Set Syntax: CSS"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"slug",
+				"Slugify"
+			],
+			[
+				"insl",
+				"Package Control: Install Package"
+			],
+			[
+				"coffe",
+				"Set Syntax: Coffee Haml"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 480.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Setup/Sites/bryanhadro_project"
+	],
+	"file_history":
+	[
+		"/Users/Setup/Sites/travel/app/views/hotels_listing.py",
+		"/Users/Setup/Sites/travel/bryan.py",
+		"/Users/Setup/Sites/travel/bryan-apache.py",
+		"/Users/Setup/Sites/travel/.git/MERGE_MSG",
+		"/Users/Setup/Sites/travel/app/models/har_models.py",
+		"/Users/Setup/Sites/travel/app/models/rankings.py",
+		"/Users/Setup/Sites/travel/app/templatetags/static_versioning.py",
+		"/Users/Setup/Sites/travel/web/static/js/prefold.js",
+		"/Users/Setup/Sites/travel/web/static/css/responsive/hotels.css",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/dest_hotel_single.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/dest_hotel_reviews.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_editors_note.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_wedding.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_golf.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_pets.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_business.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_fitness.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_kids.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_spa.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_pool.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_dining.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_location_and_parking.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_guest_reviews.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_guest_rooms.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_rankings.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_critic_reviews.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_amenities.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/dest_hotel_rooms.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/travel_template_16.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/profile_subnav.html",
+		"/Users/Setup/Sites/travel/app/templatetags/global_tags.py",
+		"/Users/Setup/Sites/travel/app/views/destinations.py",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/dest_hotel_photos.html",
+		"/Users/Setup/Sites/travel/app/templatetags/har_tags.py",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_profile_hero.html",
+		"/Users/Setup/Sites/travel/web/static/css/responsive/article.css",
+		"/Users/Setup/Sites/travel/settings.py",
+		"/Users/Setup/Sites/travel/web/static/css/article.css",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/hotel_destination.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/hotel_state.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/hotel_badge_type.html",
+		"/Users/Setup/Sites/travel/urls.py",
+		"/Users/Setup/Sites/travel/app/views/__init__.py",
+		"/Users/Setup/Sites/travel/app/views/home.py",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/hotel_state.html",
+		"/Users/Setup/Sites/travel/app/models/regions.py",
+		"/Users/Setup/Sites/travel/app/models/internal_link_convertor.py",
+		"/Users/Setup/Sites/travel/config/qa.py",
+		"/Users/Setup/Sites/travel/config/staging.py",
+		"/Users/Setup/Sites/travel/web/static/js/usn.travel.search.js",
+		"/Users/Setup/Sites/travel/web/static/js/usn.travel.base.js",
+		"/Users/Setup/Sites/travel/web/static/js/usn.travel.datepicker.js",
+		"/Users/Setup/Sites/travel/app/templatetags/filters.py",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/hotel_listings_template.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/hotel_brand.html",
+		"/Users/Setup/Sites/travel/app/utils/common.py",
+		"/Users/Setup/Sites/travel/app/templatetags/social_media.py",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/social_media.html",
+		"/Users/Setup/Sites/travel/web/static/js/bootstrap.js",
+		"/Users/Setup/Sites/travel/web/static/js/main.js",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/dev/index.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/promos/price_finder_promo.html",
+		"/Users/Setup/Sites/travel/web/static/js/destination_finder.js",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/destination_finder.html",
+		"/Users/Setup/Sites/travel/web/static/js/hotelcr.js",
+		"/Users/Setup/Sites/travel/web/static/js/jquery.form.js",
+		"/Users/Setup/Sites/travel/web/static/js/jquery.limitCharWidth.js",
+		"/Users/Setup/Sites/travel/web/static/js/trvlutl.js",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/dest_attraction_single.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/dest_getting_around.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/dest_overview.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/dest_when_to_visit.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/main_rankings.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/cruises/cruise_line_onboard.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/cruises/cruise_line_onshore.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/cruises/cruise_line_profile.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/cruises/cruise_ship_cabins.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/cruises/cruise_ship_reviews.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/cruises/cruise_ship_profile.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/tag_check_rates.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/travel_template.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/article.html",
+		"/Users/Setup/Sites/travel/travel.sublime-project",
+		"/private/etc/apache2/extra/vhosts/localhost.travel.usnews.com.conf",
+		"/Users/Setup/Sites/travel/web/static/js/usn.travel.promos.js",
+		"/Users/Setup/Sites/travel/web/static/js/usn.travel.hotels.js",
+		"/Users/Setup/Sites/travel/web/static/js/tag_rank_vote.js",
+		"/Users/Setup/Sites/travel/web/static/js/usn.travel.ads.js",
+		"/Users/Setup/Sites/travel/web/static/css/responsive/extend.css",
+		"/Users/Setup/Sites/travel/web/static/css/responsive/destination_16.css",
+		"/Users/Setup/Sites/travel/web/static/css/responsive/main_rankings.css",
+		"/Users/Setup/Sites/travel/app/views/cruises.py",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/hotel_search_results.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/tag/tag_tealium.html",
+		"/Users/Setup/Documents/Receipes/work.txt",
+		"/Users/Setup/Sites/travel/app/views/dev.py",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/hotels.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/cruises/cruise_ship_rankings.html",
+		"/Users/Setup/Sites/travel/app/models/rank_prj.py",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/cruises/cruise_line_rankings.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_similar_hotels.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/photo_strip.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/destinations/explore_more_cards.html",
+		"/Users/Setup/Sites/travel/requirements.txt",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/promos/promo.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/rankings/rankings_search_results.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/dest_attraction_listing.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/featured_articles.html",
+		"/Users/Setup/Sites/travel/web/static/css/main_rankings.css",
+		"/Users/Setup/.curl/curl-format.txt",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/rankings.html",
+		"/Users/Setup/Sites/travel/web/static/css/responsive/travel_template.css",
+		"/Users/Setup/Sites/travel/web/static/js/jquery.lazyInterchange.js",
+		"/Users/Setup/Sites/travel/web/static/js/jquery.unveil.js",
+		"/Users/Setup/Sites/travel/app/utils/image_processing.py",
+		"/Users/Setup/Sites/travel/web/static/js/jquery.unveilBackground.js",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/hotel_search_hud.html",
+		"/Users/Setup/Sites/travel/app/models/__init__.py",
+		"/Users/Setup/Sites/travel/app/models/destinations.py",
+		"/Users/Setup/Sites/travel/app/models/bb_webapi.py",
+		"/Users/Setup/Sites/travel/travel.log",
+		"/Users/Setup/Sites/travel/app/views/inject.py",
+		"/Users/Setup/Sites/travel/app/core/cutils.py",
+		"/Users/Setup/Sites/travel/app/utils/inject_util.py",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/rankings/rankings_search_filters.html",
+		"/etc/sudoers.tmp",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/promos/cruise_finder_promo.html",
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/cruises/cruise_ship_deck_plans.html"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 115.0,
+		"where_history":
+		[
+			"-*.log",
+			"",
+			"-*.log,-*/13.js,-*.js.map,-*/15.js,-*/15.js.map,-*/18.js,-*/18.js.map,-*/53.js,-*/53.js.map,-*/75.js,-*/75.js.map,-*/9.js,-*/9.js.map,-*/82.js,-*/82.js.map",
+			"-*.log,-*/13.js,-*/13.js.map,-*/15.js,-*/15.js.map,-*/18.js,-*/18.js.map,-*/53.js,-*/53.js.map,-*/75.js,-*/75.js.map,-*/9.js,-*/9.js.map,-*/82.js,-*/82.js.map",
+			"-*.log,-*/13.js,-*/13.js.map,-*/15.js,-*/15.js.map,-*/18.js,-*/18.js.map,-*/53.js,-*/53.js.map,-*/75.js,-*/75.js.map",
+			"-*.log,-*/13.js,-*/13.js.map,-*/15.js,-*/15.js.map,-*/18.js,-*/18.js.map,-*/53.js,-*/53.js.map",
+			"-*.log,-*/13.js,-*/13.js.map,-*/15.js,-*/15.js.map,-*/18.js,-*/18.js.map",
+			"-*.log,-*/13.js,-*/13.js.map,-*/15.js,-*/15.js.map",
+			"-*.log,-*/\\\\d\\\\d.js,-*/\\\\d\\\\d.js.map",
+			"-*.log,-*/(13).js,-*/13.js.map",
+			"-*.log,-*/13.js,-*/13.js.map",
+			"-*.log,-*/13.js",
+			"-*.log,-*/(\\d\\d).js",
+			"-*.log,-*/\\d\\d.js",
+			"-*.log",
+			"",
+			"_S1",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"__get_hotels",
+			"get_hotels",
+			"request",
+			"get_hotels",
+			"amenity",
+			"has_rankings_section",
+			"profile-section ",
+			"vendors.js",
+			", ",
+			"DISABLE_MAPS",
+			"page",
+			"state",
+			"destination",
+			"all_inclusive",
+			"request",
+			"tag_price_finder_promo",
+			"get_property_types",
+			"get_hotel_location_data",
+			"PROPERTY_TYPES",
+			"pageinfo.description",
+			"_hlp_get_default_pageinfo",
+			"_BADGE_TYPE_GALLERY_LINKS",
+			"_hlp_get_search_filters",
+			"_hlp_get_sub_links",
+			"make_hotel_breadcrumbs",
+			"_hlp_make_hotel_breadcrumbs",
+			"make_hotel_breadcrumbs",
+			"def make_hotel_breadcrumbs",
+			"make_hotel_breadcrumbs",
+			"pageinfo.breadcrumbs",
+			"_hlp_get_intro_text",
+			"hotels_intro",
+			"_hlp_get_intro_text",
+			"_hlp_get_hotel_intro_text",
+			"InternalLinkConverterHotel",
+			"get_hotel_url",
+			"def get_hotel_url",
+			"property_type",
+			"setPaginationData",
+			"paginationDat",
+			"title(",
+			"_hlp_get_request_data",
+			"onResultsLoaded",
+			"onRangeSliderChange",
+			"filterButton",
+			"rangeSlider.set",
+			"resetRangeSlider",
+			"removeFilterButton",
+			"number_to_text",
+			"intcomma",
+			"p_brand",
+			"pageinfo.heading",
+			"property_type_display_text",
+			"_hlp_get_property_type_display_text",
+			"pageinfo.travel_regions",
+			"if paginator_page.object_list",
+			"_hlp_get_default_pageinfo",
+			", ",
+			"_hlp_get_default_pageinfo",
+			"pageinfo.og_image",
+			"pageinfo.og_description",
+			"pageinfo.og_url",
+			"pageinfo.og_type",
+			"pageinfo.og_title",
+			"pageinfo.social_media_title",
+			"social_media_responsive",
+			"title",
+			"social_media.html",
+			"social_media_title",
+			"pageinfo.social_media_title",
+			"pageinfo.canonical_url",
+			"_hlp_get_default_pageinfo",
+			"pageinfo.title",
+			"_hlp_get_default_pageinfo",
+			"pageinfo.title",
+			"pageinfo.rankinglist_type",
+			"_hlp_get_default_pageinfo",
+			"pageinfo.rankinglist_type",
+			"pageinfo.zone",
+			" pageinfo.zone",
+			"pageinfo.zone",
+			"property_type_display_text",
+			"pageinfo.rankinglist_type",
+			"_hlp_get_default_pageinfo",
+			"pageinfo.zone",
+			"pageinfo.breadcrumbs",
+			"pageinfo.content_type",
+			"pageinfo.page_type",
+			"_hlp_get_default_pageinfo",
+			"pageinfo.zone",
+			"_hlp_get_default_pageinfo",
+			"pageinfo.zone",
+			"pageinfo.site",
+			"pageinfo.site_product_section",
+			"pageinfo.site_product",
+			"pageinfo.section",
+			"pageinfo",
+			"if property_type == \"Resorts\"",
+			"pageinfo.travel_regions",
+			"pageinfo.title",
+			"pageinfo.rankinglist_type",
+			"hotel_listings",
+			"vendors.",
+			"vendors",
+			"script",
+			"Monaco",
+			"get_hotel_location_data",
+			"Monaco",
+			"class Region",
+			"get_hotel_url",
+			"for ",
+			"capitalize_region_name",
+			"&amp;",
+			"$( function",
+			"jquery.dfp",
+			"$(function",
+			"destination_finder.js",
+			"hotelcr.js",
+			"jquery.form.js",
+			"jquery.limitCharWidth.js",
+			"trvlutl.js",
+			".ready(",
+			"responsive/travel_template.html",
+			"travel_template.html",
+			".ready(",
+			"$(function",
+			"$( function",
+			"jQuery( function"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n",
+			"make_hotel_breadcrumbs",
+			"_hlp_make_hotel_breadcrumbs",
+			"intro_text",
+			"_hlp_get_intro_text",
+			"\\n",
+			"&",
+			"\\n",
+			"search-app-hud-region-1479832559066",
+			"do_api_request",
+			"cls.endpoint",
+			"slideshow-caption",
+			".busy-indicator",
+			"CruisePrices",
+			"\\n",
+			"resetRangeSlider",
+			"filterButtonsContainer",
+			",",
+			"rank_list_title",
+			"cruise",
+			"map-popup-container",
+			"airfare-overlay-button",
+			"hero promo",
+			"HERO PROMO",
+			"hero-promo",
+			".towns-and-neighborhoods",
+			"/images/sprites/svg/sprite.symbol.svg",
+			"{{container_id}}",
+			"{{id}}",
+			"http://travel-dev.usnews.com",
+			"selectFill",
+			"_S1",
+			"_PAPER",
+			"888888",
+			"CCCCCC",
+			"888888"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 80.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "bryanhadro.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"markup",
+				"gulp/tasks/markup.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 399.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
