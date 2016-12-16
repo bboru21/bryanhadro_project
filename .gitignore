@@ -1,2 +1,5 @@
 # sublime text project files
 *.sublime-project
+
+*.pyc
+*.DS_Store
