@@ -12,10 +12,10 @@ def index(request):
 
     print trains
 
-    template = loader.get_template('frontpage/index.html')
-    context = {
-        "trains": trains
-    }
+    # template = loader.get_template('frontpage/index.html')
+    # context = {
+    #     "trains": trains
+    # }
 
 
     return HttpResponse(True)

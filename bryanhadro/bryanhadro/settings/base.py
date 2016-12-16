@@ -150,7 +150,6 @@ TEMPLATE_LOADERS = (
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#template-dirs
 TEMPLATE_DIRS = (
     normpath(join(SITE_ROOT, 'templates')),
-    normpath(join(SITE_ROOT, 'frontpage/templates')),
 )
 ########## END TEMPLATE CONFIGURATION
 
