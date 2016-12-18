@@ -24,3 +24,32 @@ class WashingtonMetroAPI():
             pass
 
         return json_response
+
+class AccuWeatherAPI():
+    api_key = "hzJgpUoCxVuORDBk1MFSNRnnT8jopbAq"
+    endpoint = ""
+
+    @classmethod
+    def do_api_get(cls):
+        json_response = {}
+
+        try:
+            response = urllib2.urlopen(cls.endpoint, timeout=1).read()
+            json_response = json.loads(response)
+        except:
+            pass
+
+        return json_response
+
+class AccuWeatherAPICountries(AccuWeatherAPI):
+
+    @classmethod
+    def __init__(cls, region_code):
+        cls.endpoint = "http://dataservice.accuweather.com/locations/v1/countries/%s?apikey=%s" % (region_code, cls.api_key)
+
+class AccuWeatherAPIAdminAreas(AccuWeatherAPI):
+
+    @classmethod
+    def __init__(cls, country_code):
+        cls.endpoint = "http://dataservice.accuweather.com/locations/v1/adminareas/%s?apikey=%s" % (country_code, cls.api_key)
+
