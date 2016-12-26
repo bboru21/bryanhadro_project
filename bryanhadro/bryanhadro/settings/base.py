@@ -149,7 +149,7 @@ TEMPLATE_LOADERS = (
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#template-dirs
 TEMPLATE_DIRS = (
-    normpath(join(SITE_ROOT, 'templates')),
+    normpath(join(SITE_ROOT, 'templates/')),
 )
 ########## END TEMPLATE CONFIGURATION
 
@@ -193,8 +193,7 @@ DJANGO_APPS = (
 )
 
 # Apps specific for this project go here.
-LOCAL_APPS = (
-)
+LOCAL_APPS = ()
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS
