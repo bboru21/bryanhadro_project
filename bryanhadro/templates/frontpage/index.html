@@ -7,9 +7,27 @@
     <body>
         <h1>Frontpage</h1>
 
-        {{trains}}
+        <section>
+            <h2>WMATA</h2>
 
-        {{areas}}
+            <h3>Eastbound Trains</h3>
+            <ul>
+                {% for train in eastbound_trains %}
+                <li>{{train.Min}} mins - {{train.DestinationName}} ({{train.Line}})</li>
+                {% endfor %}
+            </ul>
+
+            <h3>Westbound Trains</h3>
+            <ul>
+                {% for train in westbound_trains %}
+                <li>{{train.Min}} - {{train.DestinationName}} ({{train.Line}})</li>
+                {% endfor %}
+            </ul>
+        </section>
+
+        {% comment %}
+        {u'Group': u'2', u'Min': u'2', u'DestinationCode': u'K08', u'Car': u'6', u'Destination': u'Vienna', u'DestinationName': u'Vienna/Fairfax-GMU', u'LocationName': u'Dunn Loring-Merrifield', u'Line': u'OR', u'LocationCode': u'K07'}
+        {% endcomment %}
 
     </body>
 </html>

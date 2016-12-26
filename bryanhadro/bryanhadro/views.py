@@ -16,16 +16,25 @@ def index(request):
 
 def frontpage(request):
 
-    station_codes = ["K07", "C04"] # Foggy Bottom and Dunn Loring.
-    data = WashingtonMetroAPI.do_rail_prediction_request(station_codes)
+    wmata_api = WashingtonMetroAPI()
+    station_names = ["Dunn Loring-Merrifield", "Foggy Bottom-GWU"] # Foggy Bottom and Dunn Loring.
+    data = wmata_api.do_rail_prediction_request(station_names)
     trains = data.get("Trains", [])
 
+    eastbound_trains = []
+    westbound_trains = []
+    for train in trains:
+        if train.get("DestinationCode") == wmata_api.stations.get("Vienna/Fairfax-GMU", {}).get("code"):
+            westbound_trains.append(train)
+        if train.get("DestinationCode") == wmata_api.stations.get("Foggy Bottom-GWU", {}).get("code"):
+            eastbound_trains.append(train)
+
     # countries = AccuWeatherAPICountries("NAM").do_api_get()
-    areas = AccuWeatherAPIAdminAreas("US").do_api_get()
+    # areas = AccuWeatherAPIAdminAreas("US").do_api_get()
 
     context = {
-        "trains": trains,
-        "areas": areas,
+        "eastbound_trains": eastbound_trains,
+        "westbound_trains": westbound_trains,
     }
 
     return render_to_response('frontpage/index.html', context)
