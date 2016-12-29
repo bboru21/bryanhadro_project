@@ -47,14 +47,19 @@ class WashingtonMetroAPI():
 class AccuWeatherAPI():
     api_key = "hzJgpUoCxVuORDBk1MFSNRnnT8jopbAq"
     endpoint = ""
+    version = "v1"
 
     @classmethod
     def do_api_get(cls):
         json_response = {}
 
+        print cls.endpoint
+
         try:
             response = urllib2.urlopen(cls.endpoint, timeout=1).read()
             json_response = json.loads(response)
+            # raw_data = urllib.urlopen(cls.endpoint).read()
+            # json_data = json.loads(raw_data)
         except:
             pass
 
@@ -64,32 +69,31 @@ class AccuWeatherAPICountries(AccuWeatherAPI):
 
     @classmethod
     def __init__(cls, region_code):
-        cls.endpoint = "http://dataservice.accuweather.com/locations/v1/countries/%s?apikey=%s" % (region_code, cls.api_key)
+        cls.endpoint = "http://dataservice.accuweather.com/locations/%s/countries/%s?apikey=%s" % (cls.version, region_code, cls.api_key)
 
 class AccuWeatherAPIAdminAreas(AccuWeatherAPI):
     @classmethod
     def __init__(cls, country_code):
-        cls.endpoint = "http://dataservice.accuweather.com/locations/v1/adminareas/%s?apikey=%s" % (country_code, cls.api_key)
+        cls.endpoint = "http://dataservice.accuweather.com/locations/%s/adminareas/%s?apikey=%s" % (cls.version, country_code, cls.api_key)
 
 class AccuWeatherAPILocalConditions(AccuWeatherAPI):
     @classmethod
-    def __init__(cls):
-        cls.endpoint = "http://api.accuweather.com/locations/v1/cities/US/search.json?q=dunn loring&apikey=%s&alias=always" % (cls.api_key)
-'''
-{u'LocalizedType': u'State'
-u'EnglishType': u'State'
-u'CountryID': u'US'
-u'Level': 1
-u'LocalizedName': u'Virginia'
-u'EnglishName': u'Virginia'
-u'ID': u'VA'}
+    def __init__(cls, location_key="2110938"):
+        cls.endpoint = "http://dataservice.accuweather.com/locations/%s/cities/US/search.json?q=%s&apikey=%s&alias=always" % (cls.version, location_key, cls.api_key)
 
-{u'LocalizedType': u'District'
-u'EnglishType': u'District'
-u'CountryID': u'US'
-u'Level': 1
-u'LocalizedName': u'District of Columbia'
-u'EnglishName': u'District of Columbia'
-u'ID': u'DC'}
+class AccuWeatherAPILocationTextSearching(AccuWeatherAPI):
+    @classmethod
+    def __init__(cls, country_code="US", search_text=""):
+        cls.endpoint = "http://api.accuweather.com/locations/%s/%s/search.json?q=%s&apikey=%s&language=en" % (cls.version, country_code, search_text, cls.api_key)
+
+class AccuWeatherAPIGeoPositionSearching(AccuWeatherAPI):
+    @classmethod
+    def __init__(cls, latitude="38.8856732", longitude="-77.23262319999999"):
+        coordinates = "%s, %s" % (latitude, longitude)
+        query = urllib.urlencode({'q': coordinates})
+        cls.endpoint = "http://dataservice.accuweather.com/locations/%s/cities/geoposition/search.json?%s&apikey=%s&language=en" % (cls.version, query, cls.api_key)
+
+'''
+{u'SupplementalAdminAreas': [{u'EnglishName': u'Fairfax', u'LocalizedName': u'Fairfax', u'Level': 2}], u'DataSets': [], u'Country': {u'EnglishName': u'United States', u'ID': u'US', u'LocalizedName': u'United States'}, u'Region': {u'EnglishName': u'North America', u'ID': u'NAM', u'LocalizedName': u'North America'}, u'IsAlias': False, u'Rank': 75, u'LocalizedName': u'Dunn Loring', u'Version': 1, u'PrimaryPostalCode': u'22027', u'Key': u'2110938', u'TimeZone': {u'IsDaylightSaving': False, u'Code': u'EST', u'GmtOffset': -5.0, u'Name': u'America/New_York', u'NextOffsetChange': u'2017-03-12T07:00:00Z'}, u'EnglishName': u'Dunn Loring', u'AdministrativeArea': {u'LocalizedType': u'State', u'EnglishType': u'State', u'CountryID': u'US', u'Level': 1, u'LocalizedName': u'Virginia', u'EnglishName': u'Virginia', u'ID': u'VA'}, u'Type': u'City', u'GeoPosition': {u'Latitude': 38.893, u'Elevation': {u'Metric': {u'UnitType': 5, u'Unit': u'm', u'Value': 151.0}, u'Imperial': {u'UnitType': 0, u'Unit': u'ft', u'Value': 495.0}}, u'Longitude': -77.222}}
 '''
 
