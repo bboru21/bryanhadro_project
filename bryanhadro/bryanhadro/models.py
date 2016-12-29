@@ -6,6 +6,9 @@ import json
 import urllib
 import urllib2
 
+class TwitterAPI():
+    api_key = "bwtwrNwDg1tIMK9mlwmLUBlE1"
+
 class WashingtonMetroAPI():
     primary_key = "457d9ea8d5464cb9b29cadcd8e44a4b8"
     secondary_key = "1fe0a3391c5a48f6a31b7198d2712831"
@@ -64,8 +67,29 @@ class AccuWeatherAPICountries(AccuWeatherAPI):
         cls.endpoint = "http://dataservice.accuweather.com/locations/v1/countries/%s?apikey=%s" % (region_code, cls.api_key)
 
 class AccuWeatherAPIAdminAreas(AccuWeatherAPI):
-
     @classmethod
     def __init__(cls, country_code):
         cls.endpoint = "http://dataservice.accuweather.com/locations/v1/adminareas/%s?apikey=%s" % (country_code, cls.api_key)
+
+class AccuWeatherAPILocalConditions(AccuWeatherAPI):
+    @classmethod
+    def __init__(cls):
+        cls.endpoint = "http://api.accuweather.com/locations/v1/cities/US/search.json?q=dunn loring&apikey=%s&alias=always" % (cls.api_key)
+'''
+{u'LocalizedType': u'State'
+u'EnglishType': u'State'
+u'CountryID': u'US'
+u'Level': 1
+u'LocalizedName': u'Virginia'
+u'EnglishName': u'Virginia'
+u'ID': u'VA'}
+
+{u'LocalizedType': u'District'
+u'EnglishType': u'District'
+u'CountryID': u'US'
+u'Level': 1
+u'LocalizedName': u'District of Columbia'
+u'EnglishName': u'District of Columbia'
+u'ID': u'DC'}
+'''
 

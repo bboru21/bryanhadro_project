@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"TEMPLATE",
+				"TEMPLATE_DIRS\tstatement"
+			],
+			[
 				"class",
 				"classmethod\tclass"
 			],
@@ -192,28 +196,19 @@
 	"buffers":
 	[
 		{
-			"file": "bryanhadro/frontpage/views.py",
-			"settings":
-			{
-				"buffer_size": 793,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bryanhadro/frontpage/models.py",
-			"settings":
-			{
-				"buffer_size": 1504,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "bryanhadro/bryanhadro/views.py",
 			"settings":
 			{
-				"buffer_size": 592,
+				"buffer_size": 1408,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bryanhadro/bryanhadro/models.py",
+			"settings":
+			{
+				"buffer_size": 2073,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -226,10 +221,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 375.0,
-		"last_filter": "insta",
+		"height": 77.0,
+		"last_filter": "set sy djan",
 		"selected_items":
 		[
+			[
+				"set sy djan",
+				"Set Syntax: HTML (Django)"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -366,35 +365,40 @@
 	[
 		"/Users/Setup/Sites/bryanhadro_project",
 		"/Users/Setup/Sites/bryanhadro_project/bryanhadro",
-		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/frontpage",
-		"/Users/Setup/Sites/bryanhadro_project/docs"
+		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro"
 	],
 	"file_history":
 	[
-		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/urls.py",
-		"/Users/Setup/Sites/bryanhadro_project/.gitignore",
-		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/settings/base.py",
-		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/frontpage/models.py",
-		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/frontpage/templates/index.html",
-		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/settings/settings.py",
-		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/settings/local.py",
-		"/Users/Setup/Sites/bryanhadro_project/requirements/base.txt",
-		"/Users/Setup/Sites/bryanhadro_project/requirements/local.txt",
-		"/Users/Setup/Sites/bryanhadro_project/requirements/production.txt",
-		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/frontpage/urls.py",
-		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/views.py",
-		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/__init__.py",
-		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/frontpage/__init__.py",
-		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/frontpage/views.py",
 		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/templates/frontpage/index.html",
+		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/settings/base.py",
+		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/urls.py",
+		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/views.py",
+		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/frontpage/templates/index.html",
+		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/templates/index.html",
+		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/frontpage/models.py",
+		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/frontpage/views.py",
+		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/__init__.py",
+		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/models.py",
 		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/templates/base.html",
+		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/settings/local.py",
+		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/frontpage/urls.py",
+		"/Users/Setup/Documents/Scripts/bryanhadro-django-startup.sh",
+		"/Users/Setup/Sites/icecreamratings_project/icecreamratings_project/icecreamratings_project/settings/base.py",
+		"/Users/Setup/Sites/bryanhadro_project/requirements/test.txt",
+		"/Users/Setup/Sites/bryanhadro_project/requirements/local.txt",
+		"/Users/Setup/Sites/bryanhadro_project/requirements/base.txt",
+		"/Users/Setup/Sites/bryanhadro_project/requirements/production.txt",
+		"/Users/Setup/.virtualenvs/bryanhadro/lib/python2.7/site-packages/django/template/loader.py",
+		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/index.html",
+		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/index.html",
+		"/Users/Setup/Sites/bryanhadro_project/.gitignore",
+		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/settings/settings.py",
+		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/frontpage/__init__.py",
 		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/views/__init__.py",
 		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/views/frontpage.py",
 		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/views",
 		"/Users/Setup/Sites/bryanhadro_project/requirements.txt",
-		"/Users/Setup/Sites/bryanhadro_project/requirements/test.txt",
 		"/Users/Setup/Documents/Scripts/travel-django-startup.sh",
-		"/Users/Setup/Documents/Scripts/bryanhadro-django-startup.sh",
 		"/Users/Setup/Sites/bryanhadro_project/bryanhadro/bryanhadro/settings/__init__.py",
 		"/Users/Setup/Sites/travel/app/views/hotels_listing.py",
 		"/Users/Setup/Sites/travel/bryan.py",
@@ -492,13 +496,7 @@
 		"/Users/Setup/Sites/travel/web/dynamic/templates/tag/tag_tealium.html",
 		"/Users/Setup/Documents/Receipes/work.txt",
 		"/Users/Setup/Sites/travel/app/views/dev.py",
-		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/hotels.html",
-		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/cruises/cruise_ship_rankings.html",
-		"/Users/Setup/Sites/travel/app/models/rank_prj.py",
-		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/cruises/cruise_line_rankings.html",
-		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/hotels/tag_similar_hotels.html",
-		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/photo_strip.html",
-		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/tag/destinations/explore_more_cards.html"
+		"/Users/Setup/Sites/travel/web/dynamic/templates/responsive/hotels.html"
 	],
 	"find":
 	{
@@ -531,9 +529,16 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
+			", ",
+			"frontpage",
+			"TEMPLATE_DIRS",
+			"def get_template",
+			"SETTINGS_PATH",
+			"TEMPLATES",
+			"LOCAL_APPS",
 			"normpath",
 			"TEMPLATE",
 			"TEMPLATES",
@@ -654,19 +659,12 @@
 			"for ",
 			"capitalize_region_name",
 			"&amp;",
-			"$( function",
-			"jquery.dfp",
-			"$(function",
-			"destination_finder.js",
-			"hotelcr.js",
-			"jquery.form.js",
-			"jquery.limitCharWidth.js",
-			"trvlutl.js"
+			"$( function"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 			"\\n",
@@ -707,7 +705,7 @@
 			"888888"
 		],
 		"reverse": false,
-		"show_context": true,
+		"show_context": false,
 		"use_buffer2": true,
 		"whole_word": false,
 		"wrap": true
@@ -720,19 +718,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "bryanhadro/frontpage/views.py",
+					"file": "bryanhadro/bryanhadro/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 793,
+						"buffer_size": 1408,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								541,
-								541
+								487,
+								487
 							]
 						],
 						"settings":
@@ -746,6 +744,10 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
 								}
 							],
 							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
@@ -753,7 +755,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 164.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -761,19 +763,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "bryanhadro/frontpage/models.py",
+					"file": "bryanhadro/bryanhadro/models.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1504,
+						"buffer_size": 2073,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1279,
-								1303
+								318,
+								329
 							]
 						],
 						"settings":
@@ -794,51 +796,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 706.0,
+						"translation.y": 216.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "bryanhadro/bryanhadro/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 592,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								170,
-								170
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -877,13 +838,13 @@
 	"menu_visible": false,
 	"output.find_results":
 	{
-		"height": 0.0
+		"height": 150.0
 	},
 	"pinned_build_system": "",
 	"project": "bryanhadro.sublime-project",
 	"replace":
 	{
-		"height": 58.0
+		"height": 74.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -925,7 +886,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 399.0,
+	"side_bar_width": 268.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
